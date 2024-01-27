@@ -12,8 +12,7 @@ def test(originImg):
     originShape = originImg.shape
     
     
-    # Converting image into array of dimension [nb of pixels in originImage, 3]
-    
+    # Converting image into array of dimension [nb of pixels in originImage, 3 
     # based on r g b intensities
     
     flatImg=np.reshape(originImg, [-1, 3])
